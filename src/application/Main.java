@@ -18,7 +18,7 @@ public class Main extends Application {
 	
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
 		
-		//loader.setController(new SetBlur());
+		//loader.setController(new SetBlur())   ;
 		
 		mypane = (AnchorPane) loader.load();
 		
